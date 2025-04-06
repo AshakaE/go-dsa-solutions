@@ -18,6 +18,8 @@ func main() {
 		samples.SimpleArraySumTest()
 	case "diagonalDiff":
 		samples.DiagonalDifferenceTest()
+	case "minMaxSum":
+		samples.MiniMaxSumTest()
 	default:
 		fmt.Println("Unknown algorithm:", os.Args[1])
 	}
